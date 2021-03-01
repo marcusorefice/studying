@@ -1,4 +1,4 @@
-algoritmo "Aprovado ou reprovado?"
+algoritmo "Situação Aluno2"
 var
    nota1, nota2, media: real
 
@@ -13,7 +13,7 @@ inicio
       Escreval (" ")
       media <- (nota1 + nota2)/2
       Escreval ("--------------------")
-      Escreval ("M�dia: ", media)
+      Escreval ("Média: ", media)
       Se (media <= 10) e (media >= 9) entao
          Escreval ("Aproveitamento: A")
       SeNao
