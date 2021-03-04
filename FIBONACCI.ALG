@@ -1,6 +1,6 @@
 algoritmo "semnome"
 var
-   n1, n2, soma, soma1, cont: inteiro
+   n1, n2, soma, cont: inteiro
 
 inicio
    n1 <- 0
