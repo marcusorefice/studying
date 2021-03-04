@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Fibonacci"
 var
    n1, n2, soma, cont: inteiro
 
