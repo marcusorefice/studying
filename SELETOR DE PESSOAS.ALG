@@ -38,6 +38,7 @@ inicio
       Escreva ("Quer continuar? [S/N] ")
       Leia (R)
    Ate (R = "N")
+   LimpaTela
    EscrevaL ("-----------------")
    EscrevaL (" RESULTADO FINAL ")
    EscrevaL ("-----------------")
