@@ -4,7 +4,7 @@ var
    valor, soma, media, somapar: real
 inicio
    Para c := 1 ate 5 faca
-      Escreva ("Digite o ", c, "º valor: ")
+      Escreva ("Digite o ", c, "Âº valor: ")
       Leia (valor)
       soma <- soma + valor
       media <- soma / 5
@@ -18,14 +18,9 @@ inicio
          ContDiv <- ContDiv + 1
       FimSe
    FimPara
-   EscrevaL ("A soma entre os valores é:", soma)
-   EscrevaL ("A média entre os valores é:", media)
-   EscrevaL ("Valores divisiveis por 5 é:", ContDiv)
+   EscrevaL ("A soma entre os valores Ã©:", soma)
+   EscrevaL ("A mÃ©dia entre os valores Ã©:", media)
+   EscrevaL ("Valores divisiveis por 5 Ã©:", ContDiv)
    EscrevaL ("Valores nulos:", nulo)
-   EscrevaL ("A soma dos valores pares é:", somapar)
-   
-   
-
-
-
+   EscrevaL ("A soma dos valores pares Ã©:", somapar)
 fimalgoritmo
