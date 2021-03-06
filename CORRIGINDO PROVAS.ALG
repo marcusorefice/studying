@@ -14,11 +14,10 @@ inicio
    EscrevaL("PASSO 1 - Cadastro de gabarito")
    EscrevaL("------------------------------")
    Para c <- 1 ate 5 faca
-      Escreva("Questão, ", c, ": ")
+      Escreva("QuestÃ£o, ", c, ": ")
       Leia(gaba[c])
    FimPara
 FimProcedimento
-
 
 Funcao CadastroProva(): Real
 var
@@ -59,12 +58,5 @@ inicio
 
    media <- s / 3
    EscrevaL("-----------------------")
-   EscrevaL("A média da turma é: ", media:4:1)
-
-
-
-
-
-
-
+   EscrevaL("A mÃ©dia da turma Ã©: ", media:4:1)
 fimalgoritmo
